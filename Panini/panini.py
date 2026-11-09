@@ -13,3 +13,14 @@ plan.remove("cook")
 print(plan)
 weekend_plan = ["go shopping", "go hiking"]
 print(plan + weekend_plan)
+
+city = ("Poznan", "Poland", "52,41", "16,93")
+print(city[1])
+print(city[3])
+print(type(city))
+the_city, country, latitude, longitude = city
+print(the_city, country)
+list_city = list(city)
+list_city[1] = "Germany"
+city = tuple(list_city)
+print(city)
